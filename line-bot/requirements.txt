@@ -1,0 +1,6 @@
+pip==20.2.4
+Flask==1.1.2
+gunicorn==19.9.0
+line-bot-sdk==1.18.0
+google-cloud-datastore==2.0.1
+pandas==1.2.0

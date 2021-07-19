@@ -1,0 +1,11 @@
+service: line-bot
+
+instance_class: F1
+    
+runtime: python38
+
+entrypoint: gunicorn --bind :$PORT main:app
+
+automatic_scaling:
+    min_instances: 0
+    max_instances: 5
